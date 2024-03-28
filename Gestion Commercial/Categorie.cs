@@ -26,7 +26,7 @@ namespace Gestion_Commercial
         }
         public override string ToString()
         {
-            string msg = ("\nLe code de la catégorie est:  " + this.codeCategorie + "\nLe libellé de la catégorie est: " + this.libCategorie);
+            string msg = ("Le code de la catégorie est:  " + this.codeCategorie + "\nLe libellé de la catégorie est: " + this.libCategorie +"\n");
             return msg;
         }
     }
